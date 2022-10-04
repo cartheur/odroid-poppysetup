@@ -25,7 +25,7 @@ Login to the board in SSH: `ssh odroid@odroid.local`, password=odroid.
 
 Be sure that your board is connected to the Internet, download and run poppy_setup.sh (replace 'poppy-humanoid' below with poppy-torso' if you want to install a Poppy Torso robot):
 ```
-wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
+wget https://github.com/cartheur/odroid-poppysetup/blob/master/poppy_setup.sh -O poppy_setup.sh
 sudo bash poppy_setup.sh poppy-humanoid
 ```
 You should lose your ssh connection because of the board reboot. This reboot is needed to proceed to the finalisation of the partition resizing. Now your board should installing all the poppy environment. **Please do not unpower the board or shut-it down.**
